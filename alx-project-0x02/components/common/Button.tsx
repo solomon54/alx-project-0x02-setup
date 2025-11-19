@@ -1,5 +1,5 @@
 import { type ButtonProps } from "@/interfaces";
-export default function Button({size, shape}:ButtonProps){
+export default function Button({size='medium', shape='rounded-md'}:ButtonProps){
     let padding;
     let borderRadius;
 
