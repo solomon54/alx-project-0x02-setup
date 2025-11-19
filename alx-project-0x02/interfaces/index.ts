@@ -1,1 +1,5 @@
-import { Interface } from "readline";
+
+export interface CardProps{
+    title: string;
+    content: string;
+}
