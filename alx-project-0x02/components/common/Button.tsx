@@ -11,9 +11,9 @@ export default function Button({size= 'medium', shape='rounded-md'}:ButtonProps)
 
     // Determine border radius based on shape prop
     const shapes={
-        'rounded-sm': 'rounded-sm',
-       'rounded-md':' rounded-md',
-        'rounded-full':'rounded-full'
+       'rounded-sm': 'rounded-sm',
+       'rounded-md': 'rounded-md',
+       'rounded-full': 'rounded-full'
             
     }
 

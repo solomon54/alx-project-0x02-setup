@@ -50,13 +50,13 @@ export default function PostModal({ addCardCallback, closeModal }: PostModalProp
                         <button
                             type="button"
                             onClick={closeModal}
-                            className="px-4 py-2 bg-gray-300 rounded"
+                            className="px-4 py-2 bg-gray-300 rounded cursor-pointer"
                         >
                             Cancel
                         </button>
                         <button
                             type="submit"
-                            className="px-4 py-2 bg-blue-500 text-white rounded"
+                            className="px-4 py-2 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-600 transition"
                         >
                             Add Card
                         </button>
