@@ -10,6 +10,9 @@ export default function About(){
         <Button size="small" shape="rounded-sm" />
         <Button size="medium" shape="rounded-md" />
         <Button size="large" shape="rounded-full" />
+        <Button />
+        <Button shape="rounded-sm"/>
+        <Button size="large" />
        </div>
 
         </div>
