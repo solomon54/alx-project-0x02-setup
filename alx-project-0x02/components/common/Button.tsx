@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interfaces";
+import { type ButtonProps } from "@/interfaces";
 export default function Button({size, shape}:ButtonProps){
     let padding;
     let borderRadius;
