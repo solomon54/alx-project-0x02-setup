@@ -10,6 +10,7 @@ export default function Header() {
                 <div className="space-x-4">
                     <Link href="/home" className="hover:underline">Home</Link>
                     <Link href="/about" className="hover:underline">About</Link>
+                    <Link href="/posts" className="hover:underline">Posts</Link>
                 </div>
             </nav>
         </header>

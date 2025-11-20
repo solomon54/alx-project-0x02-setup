@@ -6,4 +6,12 @@ export interface CardProps{
 }
  export interface ButtonProps{
     size?: 'small' | 'medium' | 'large';
-    shape?: 'rounded-sm'|'rounded-md' | 'rounded-full' ;}
+    shape?: 'rounded-sm'|'rounded-md' | 'rounded-full' ;
+}
+
+export interface PostProps{
+    title:string;
+    imgUrl:string;
+    description:string;
+
+}
