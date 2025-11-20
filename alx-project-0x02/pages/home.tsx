@@ -3,6 +3,7 @@ import PostModals from "@/components/common/PostModal";
 import { Content } from "next/font/google";
 import { title } from "process";
 import { useState } from "react";
+import Header from "@/components/layout/Header" ;
 
 export default function Home(){
 const [cards,setCards]= useState([
@@ -18,6 +19,10 @@ const [cards,setCards]= useState([
     };
 
     return (
+    <div>
+            <Header />
+        
+        
         <div className="text-2xl text-gray-700 bg-gray-100 mb-8">
            <div className="p-5 bg-gray-100 text-4xl text-gray-700 ml-5">
              <h1 >Home Page</h1>
@@ -46,6 +51,7 @@ addCardCallback={addCard}
 <Card title="TypeScript" content="This is the content of the TypeScript Course." />
 
 
+        </div>
         </div>
     )
 }

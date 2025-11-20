@@ -1,8 +1,10 @@
 import Button from "@/components/common/Button";
+import Header from "@/components/layout/Header" ;
 
 export default function About(){
     return (
         <div>
+            <Header />
             <h1>About Us</h1>
             <p>This is the about page of our application.</p>
 
@@ -13,6 +15,7 @@ export default function About(){
         <Button />
         <Button shape="rounded-sm"/>
         <Button size="large" />
+
        </div>
 
         </div>
