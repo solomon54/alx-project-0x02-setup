@@ -12,6 +12,7 @@ export interface CardProps{
 export interface PostProps{
     title:string;
     imgUrl:string;
-    description:string;
+    userId:string;
+    content:string;
 
 }
