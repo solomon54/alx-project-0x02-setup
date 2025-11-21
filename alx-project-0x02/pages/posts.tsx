@@ -15,7 +15,7 @@ export default function PostPage({posts}){
     return(
         <div >
             <Header />
-            <h1 className="text-3xl text-gray-800 font-bold  underline underline-offset-4" >Posts Page</h1>
+            <h1 className="text-3xl text-gray-300 font-bold  underline underline-offset-4" >Posts Page</h1>
 <div className="grid grid-cols-3 gap-2 ">{/* from API */}
         {posts.slice(0, 6).map((post) =>{
             console.log(post);
